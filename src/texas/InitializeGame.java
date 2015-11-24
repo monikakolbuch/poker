@@ -5,10 +5,10 @@ import java.util.Random;
 public class InitializeGame {
 	private int i;
 
-	public InitializeGame(int num, int money){
+	public InitializeGame(int num, int money, int sBlind, int bBlind){
 		Random generator = new Random(); 
 		int rand = generator.nextInt(num) + 1;
-		GameInfo.Initialize(num, rand, money);
+		GameInfo.Initialize(num, rand, money, sBlind, bBlind);
 		this.setPlayers(num);
 	}
 	public void setPlayers(int k) {

@@ -14,12 +14,12 @@ public class PlayerTest {
 
 	@Test
 	public void testPlayerNumber() {
-		init = new InitializeGame(2,8);	
+		init = new InitializeGame(2,8,1,2);	
 		assertEquals(GameInfo.getPlayersNumber(),2);
 	}
 	@Test
 	public void testMoney(){
-		init = new InitializeGame(2,8);
+		init = new InitializeGame(2,8,1,2);
 		assertEquals(GameInfo.getPlayer(1).getMoney(), 4);
 	}
 
