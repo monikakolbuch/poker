@@ -7,10 +7,7 @@ public class GameInfo {
 	 private static int dealerButtonOwner;
 	 //gracz rozpoczynajacy turê, tura koñczy siê w momencie przejscia do danego gracza
 	 private static int startingPlayer;
-<<<<<<< HEAD
 	 //poczatkowa wartosc zetonow dla kazdego gracza, zaokraglona do int
-=======
->>>>>>> origin/master
 	 private static int startingMoneyPerCapita;
 	 private static GameInfo gInfo = null;
 	 //gracze
