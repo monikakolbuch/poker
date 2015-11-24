@@ -5,9 +5,9 @@ public class GameInfo {
 	 private static int playersNumber;
 	 //aktualny posiadacz DealerButtona
 	 private static int dealerButtonOwner;
-	 //gracz rozpoczynajacy turê, tura koñczy siê w momencie przejscia do danego gracza
+	 //gracz rozpoczynajacy turÃª, tura koÃ±czy siÃª w momencie przejscia do danego gracza
 	 private static int startingPlayer;
-	 public static int startingMoneyPerCapita;
+	 private static int startingMoneyPerCapita;
 	 private static GameInfo gInfo = null;
 	 
 	 private GameInfo(int pNumber, int dButton, int money){
