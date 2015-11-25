@@ -1,12 +1,17 @@
 package texas;
 
 public class Card {
-	private enum Sign
+	private enum CardSign
 	{
-		KARO, PIK, TREFL, KIER
+		SPADES, HEARTS, DIAMONDS, CLUBS
 		
 	}
-	//TAK SAMO ZRÓB Z CYFERKAMI
+	
+    private enum CardRank 
+    {
+    	CARD_2, CARD_3,	CARD_4,	CARD_5,	CARD_6,	CARD_7,
+    	CARD_8, CARD_9,	CARD_10, JACK, QUEEN, KING, ACE	
+    }
 	//do tego metody get, set osobno dla znaku, osobno dla numeru karty, osobno dla calosci (krotka znak, numer)
 	
 }
